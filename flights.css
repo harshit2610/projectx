@@ -1,0 +1,53 @@
+body{margin: auto 0;
+		font-family: cursive;
+		color: pink;
+		background-color: black;
+
+	}
+
+
+li {
+	padding: 20px;
+
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact {
+	margin-left: auto;
+}
+
+.info {
+        display: grid;
+        grid-gap: 20px ;
+        grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+        
+}
+
+.pics > img {
+	width: 100%;
+
+}
+
+.pics {background-color: #232672;
+	    padding: 60px;
+	    margin: 10px;}
+	   
+.pics:hover {
+	 
+         transform: scale(1.1);	
+}
+
+
+img { transition: all 0.2s;
+	
+}
+        
+img:hover {
+        	
+          transform: rotate(-7deg);
+        }

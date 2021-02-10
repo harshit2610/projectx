@@ -1,0 +1,11 @@
+  .form1{
+  	     width: 93%;
+  	    float: left;
+  }
+
+  .form2 {   font-family: cursive;
+            display: block;
+            background-color:red;
+            cursor:pointer;
+             float: left;
+              color: white}

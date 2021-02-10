@@ -1,0 +1,41 @@
+
+body{
+	margin: auto 0;
+        font-family: cursive;
+}
+
+.header{
+	cursor: pointer;
+	background-color: #add8e6
+	;
+	font-size: 2em;
+	border-radius: 2px;
+	border: 1px solid #bbb;
+	transition: all 0.3% linear;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav {
+      display: flex;
+	list-style: none;
+	font-size: 0.7em;
+	margin: 0;
+
+}
+
+li {
+	padding: 20px;
+
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact {
+	margin-left: auto;
+}
